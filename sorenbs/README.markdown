@@ -4,7 +4,7 @@
 
 The genre is: Turn-based War Strat
 
-Follow my progress at 
+Follow my progress at http://sorenbs.com/bbg3/sorenbs.html
 
 ## Work
 
@@ -16,8 +16,8 @@ I use the game engine [Crafty](http://craftyjs.com/). The level is constructed u
 
 ## Sprites
 
-Castle: http://www.reinerstilesets.de/2d-grafiken/2d-buildings/
-units: http://www.reinerstilesets.de/2d-grafiken/2d-humans/
-background etc: http://www.lostgarden.com/search/label/free%20game%20graphics
+ - Castle: http://www.reinerstilesets.de/2d-grafiken/2d-buildings/
+ - units: http://www.reinerstilesets.de/2d-grafiken/2d-humans/
+ - background etc: http://www.lostgarden.com/search/label/free%20game%20graphics
 
 Thanks guys!

@@ -9,7 +9,10 @@ Follow my progress at http://sorenbs.com/bbg3/sorenbs.html
 ## Work
 
 2/18 2 h: Find sprites, create level
+
 2/19 2 h: add hittest and test unit
+
+2/22 3 h: add units, movement, turns
 
 ## Engine
 

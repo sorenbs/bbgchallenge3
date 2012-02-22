@@ -232,11 +232,6 @@
     <property name="components" value="Solid"/>
    </properties>
   </tile>
-  <tile id="204">
-   <properties>
-    <property name="components" value="Solid"/>
-   </properties>
-  </tile>
   <tile id="205">
    <properties>
     <property name="components" value="Solid"/>
@@ -382,6 +377,19 @@
    </properties>
   </tile>
  </tileset>
+ <tileset firstgid="1201" name="Castles" tilewidth="77" tileheight="109">
+  <image source="../images/Castles.png" trans="4b637f" width="154" height="109"/>
+  <tile id="0">
+   <properties>
+    <property name="components" value="Solid, Castle, greenCastle"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="components" value="Solid, Castle, redCastle"/>
+   </properties>
+  </tile>
+ </tileset>
  <layer name="bg" width="30" height="20">
   <data encoding="base64" compression="zlib">
    eJyN1WVQVUEYh/F7AQGlS0qlS1Bn7O7B7u7u7lbsHLt77O6xC/WiY+cI2K3Y3fGc4ey4rAfGD7/ZW7P/3Xffu8diMpkSDCQrzBJ7Xaw+5pU4wBFOcIYLXOEGd3jAExY9x6JkWhReuliFv5SpvQ9AIIIQjBCEIgzhiECkNK+cnSSx6GOUJAa5kBt5pDVo2fmQHwVQEIVQGEVQFMVQXNlTgpSrrqEESqIUSqMMyqIcykvZFVARlVAZVVAV1VAdNVBT2o/IEecp10D7vhZqow7qoh7qowEaohEaowmaohmaowVaohVaow3aKvUU+5PPV3zfDu3RAR3RCZ3RBV3RDd3RAz3RC73RB33RD/0xAAOVfcm1VuswCIMxBEMxDMMxAnEYiVEYjTEYi3EYjwmYiEmYjClK7jOk4Dle4CVe4TXeYCqmYTpmYCZmYTbmYC7mYT4WYCEWYTGWYCmWYbkpbV/9xC/8hvZHNcMK1rDBCj5eiVVYjTVYi3VYjw3YiE3YjC3Yim3Yjh3YiV1Kfd2Y2x0e8IQXssIbPtjNb/ZgL/ZhPw7gIA7hMI7gKOJxDMdxQso4iVPKfsOYOxwRiEQUciIaMTjNb87gLM7hPC7gIi7hMq7gKq4hUe8RMWr9egM3lf4Rr+Ot0t5B2ngLt3EHd3EP9/EAD/EIj/EET/VeSTSQZJAn1iTnifEt3uE9PuAjPuEzvuArvuE7fui9IuckKe/l/5Ag3wN2enYm6mwLO9gjM7LAAY5wgjNc4GpO7RU1N0nJVT+T7wGxZ1/m8YM/siE7ciAAgQhCMEIQak7tlfQy5XtffubFmf7eA/I5i3yZdhdHSz2XUZaaK+6o6zpr2Gi1ha1ea5EjsuXayz2XUW3lM5bPVeR6w0ebH36m1Gesuk/fdGqeUQ8np7MukRtt+vcZK+9VY2ewFqNMOTtZGo32a/SMNdrv/+ZqWSlKff8AxNBCHA==
@@ -389,7 +397,7 @@
  </layer>
  <layer name="stuff" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJztlDkOwjAQRcdOCi4Ad4BDQsVyBZYaKpY6SKCQHAYKOACLxI9kJAuZ4DEjVzzpd7HejGN9ou/sNNFee3zowTkhuiR+30p6VUqkU76XM6+LJpwtT+8VzpvxcuZ10cbZTsB5zryShM77R5Y+3voAGSKjH949lzFcE2SKzCJ6l3CtkDWyYXhfHZGbcMnhOiAFUjK8dkfEpKuIeiq+l4vd10fc0ynwrubYdcHY1+7rO5yPQG8G59byNkw+Yfd1AWcptG/lrOsCqb5+37ciRhdkjn8b2gV1PAGQpjGA
+   eJztlEsKwjAURV/SDtyA7kEXqSM/W/Az1pHfYQWltovRgS7AD3gDKYRSa14MGXngDgop5720XKLvHCTRUVoctOAaEd0iu7M+vSImkjHfy5m3iiacLUvvHc6H9nLmVWxLZ9t47jDeL+DM6xPXef/4pY9/fYAMkdEP/z2XMVwTZIrMAnqXcK2QNbJheIuOSHW4pHCdkAzJGV6zI0LSFUQ9Ed7LxezrM+7p4nhXc+y6YOxr9vUTzpejN4Fzb3gbOp8w+zqDM2d4d0bflvdVzrou8NXX5X0VIbogqfi2rl1QxxvsiDLr
   </data>
  </layer>
 </map>
